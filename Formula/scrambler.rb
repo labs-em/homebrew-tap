@@ -4,6 +4,8 @@ class Scrambler < Formula
   version "1.0.0"
   license "Apache-2.0"
 
+  disable! date: "2026-11-03", because: "is discontinued"
+
   on_macos do
     url "https://github.com/labs-em/scrambler/releases/download/v1.0.0/scrambler-mac-universal.tar.gz"
     sha256 "33f9f78f1625d335b96b9abee8f3f3fb51a4d3033f696e04ecf9e029f6cc2b4e"
